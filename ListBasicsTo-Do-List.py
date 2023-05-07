@@ -11,7 +11,7 @@ while True:
     if command == 'End':
         break
     command_elements = command.split('-')
-    priority = int(command_elements[0])
+    priority = int(command_elements[0]) - 1
     note = command_elements[1]
     notes.pop(priority)
     notes.insert(priority, note)
