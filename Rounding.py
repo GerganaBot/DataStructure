@@ -1,7 +1,7 @@
 # Write a program that rounds all the given numbers, separated by a single space, and prints the result as a list.
 # Use round().
 
-string_of_floats = input().split(' ')
+string_floats = input().split(' ')
 
 def rounding(base_list):
     final_list = list()
@@ -11,4 +11,4 @@ def rounding(base_list):
     return final_list
 
 
-print(rounding(string_of_floats))
+print(rounding(string_floats))
